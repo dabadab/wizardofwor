@@ -1096,12 +1096,7 @@ MV_tbl
 	.word ><MV_tbl_end-MV_tbl ; size of the table ($4c, $24 entries)
 	.byte $FF,$20 ; unknown
 	; a list of offsets (from the beginning of this table) to the speech data for each word
-	_ = (MV_word_0,MV_word_1,MV_word_2,MV_word_3,MV_word_4,MV_word_5,MV_word_6,
-		MV_word_7,MV_word_8,MV_word_9,MV_word_10,MV_word_11,MV_word_12,MV_word_13,
-		MV_word_14,MV_word_15,MV_word_16,MV_word_17,MV_word_18,MV_word_19,MV_word_20,
-		MV_word_21,MV_word_22,MV_word_23,MV_word_24,MV_word_25,MV_word_26,MV_word_27,
-		MV_word_28,MV_word_29,MV_word_30,MV_word_31,MV_word_32,MV_word_33,MV_word_34,
-		MV_word_35) - MV_tbl
+	_ = (MV_word_0,MV_word_1,MV_word_2,MV_word_3,MV_word_4,MV_word_5,MV_word_6,MV_word_7,MV_word_8,MV_word_9,MV_word_10,MV_word_11,MV_word_12,MV_word_13,MV_word_14,MV_word_15,MV_word_16,MV_word_17,MV_word_18,MV_word_19,MV_word_20,MV_word_21,MV_word_22,MV_word_23,MV_word_24,MV_word_25,MV_word_26,MV_word_27,MV_word_28,MV_word_29,MV_word_30,MV_word_31,MV_word_32,MV_word_33,MV_word_34,MV_word_35) - MV_tbl
 	.word ><_
 MV_tbl_end
 	; end of table marker
