@@ -16,9 +16,17 @@ To compile it:
 
 `64tass -a wizard_of_wor.asm -b -o wow.bin`
 
+or:
+
+`make`
+
 This produces a raw binary file. You can flash it into a standard 16K cartridge or convert it into a CRT image to be used with emulators and modern cartridges like Easyflash, 1541 Ultimate, Turbo Chameleon 64 etc. For conversion you can use the `cartconv` utility from the [VICE](https://vice-emu.sourceforge.io/) package:
 
 `cartconv -i wow.bin -o wow.crt -t normal`
+
+or:
+
+`make crt`
 
 ## Introduction to the Code
 
